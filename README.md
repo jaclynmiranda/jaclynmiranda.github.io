@@ -1,2 +1,2 @@
 # jaclynmiranda.github.io
-Jackie's Website
+Jackie's Awesome Website!!!
