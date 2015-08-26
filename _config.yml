@@ -1,0 +1,6 @@
+exclude:
+- Tools
+- Gemfile
+- Gemfile.lock
+- gems
+- README.md
