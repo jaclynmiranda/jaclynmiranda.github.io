@@ -1,0 +1,23 @@
+#!/bin/bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+pushd "$DIR/.." > /dev/null
+
+echo
+echo -n "Enter post title and press [ENTER]: "
+read title
+
+if [ -n "$title" ]; then
+	rake post title="$title"
+	echo
+	echo "Made post: $title"
+	echo "Edit it in the _posts folder."
+else
+	echo
+	echo "Didn't make a post."
+fi
+
+echo -n "Press [ENTER] to continue..."
+read nothing
+
+popd > /dev/null

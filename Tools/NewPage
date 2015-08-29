@@ -1,0 +1,24 @@
+#!/bin/bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+pushd "$DIR/.." > /dev/null
+
+echo
+echo -n "Enter page name and press [ENTER]: "
+read name
+
+if [ -n "$name" ]; then
+	mkdir -p "pages/$name"
+	cp Copyable/index.html "pages/$name/index.html"
+	echo
+	echo "Made page: $name"
+	echo "Edit it in the pages folder."
+else
+	echo
+	echo "Didn't make a page."
+fi
+
+echo -n "Press [ENTER] to continue..."
+read nothing
+
+popd > /dev/null
