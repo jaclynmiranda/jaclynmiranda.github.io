@@ -15,3 +15,7 @@ Jackie's Awesome Website!!!
 3. gem install bundler
 4. bundle install (?)
 5. bundle exec jekyll serve
+
+### ignore this too
+  - figure out templates/layouts/includes/liquid
+  - check out atom
