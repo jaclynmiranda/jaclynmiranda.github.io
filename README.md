@@ -21,6 +21,16 @@ My personal website!
   - **NewPage** : Double-click to make a new page
   - **NewPost** : Double-click to make a new blog post
 
+### Deployment
+  - To update your changes to the real copy on the internet:
+    1. Open the "Github Desktop" app.
+    2. Click your project in the left sidebar.
+    3. Click "_ Uncommitted Change(s)" at the top.
+    4. Add a short summary in the text box that says "Summary".
+      - ex: "edited main page"
+      - optionally, add a longer description in the "Description" box.
+    5. Press "Commit and Sync master"
+
 
 
 ***
