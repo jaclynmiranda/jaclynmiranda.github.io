@@ -36,6 +36,8 @@ Jackie's Site!
       - ex: "edited main page"
       - optionally, add a longer description in the "Description" box.
     5. Press "Commit and Sync master"
+    6. Check out jaclynmiranda.github.io
+      - It can sometimes take a few moments for github to update
 
 
 
