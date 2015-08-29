@@ -28,7 +28,7 @@ Hi, my name is Jackie!
 [comment]: <> (See how animal is set to turtle?)
 [comment]: <> (That let's us do this:)
 
-I like {{ page.animal }}s!
+I like {{ page.animal }}s a lot!
 
 [comment]: <> (On the main page of your site, you'll see:)
 [comment]: <> (I like turtles!)
