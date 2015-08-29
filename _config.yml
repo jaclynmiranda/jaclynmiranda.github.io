@@ -1,3 +1,16 @@
+
+# site variable:
+
+food: banana
+assets: /assets
+css: /assets/css
+images: /assets/images
+js: /assets/js
+themes: /assets/themes
+
+
+
+
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
@@ -8,12 +21,12 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Varga's Site
-tagline: Replace this tagline!
+title : Jackie's Site             # REPLACE!
+tagline: with all the cool stuff  # REPLACE!
 author :
-  name : Alex Varga
-  email : thealexvarga@gmail.com
-  github : thealexvarga
+  name : Jaclyn Miranda Varga     # REPLACE!
+  email : example@example.com     # REPLACE!
+  github : jaclynmiranda
   # twitter : username
   # feedburner : feedname
 
@@ -25,7 +38,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://thealexvarga.github.io
+production_url : http://jaclynmiranda.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

@@ -1,5 +1,11 @@
-# thealexvarga.github.io
-My personal website!
+# jaclynmiranda.github.io
+Jackie's Site!
+
+### General Notes
+  - This site uses magic to take your files and generate a website.
+    - The website won't be exactly like your files.
+  - Don't worry if you make mistakes.
+    - git(hub) uses magic to let you undo them!
 
 ### Organization
   - You can ignore most of the files. Sorry about the mess.
