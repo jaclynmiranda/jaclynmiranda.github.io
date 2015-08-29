@@ -9,7 +9,9 @@ read name
 
 if [ -n "$name" ]; then
 	mkdir -p "pages/$name"
-	cp Copyable/index.html "pages/$name/index.html"
+	cp Copyable/index.md "pages/$name/index.md"
+	sed -i -e "s/Index/$name/g" "pages/$name/index.md"
+	rm "pages/$name/index.md-e" 2> /dev/null
 	echo
 	echo "Made page: $name"
 	echo "Edit it in the pages folder."
