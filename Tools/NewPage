@@ -6,17 +6,20 @@ pushd "$DIR/.." > /dev/null
 echo
 echo -n "Enter page name and press [ENTER]: "
 read name
+echo
 
 if [ -n "$name" ]; then
-	mkdir -p "pages/$name"
-	cp Copyable/index.md "pages/$name/index.md"
-	sed -i -e "s/Index/$name/g" "pages/$name/index.md"
-	rm "pages/$name/index.md-e" 2> /dev/null
-	echo
-	echo "Made page: $name"
-	echo "Edit it in the pages folder."
+	if [ ! -d "pages/$name" ]; then
+  		mkdir -p "pages/$name"
+		cp Copyable/index.md "pages/$name/index.md"
+		sed -i -e "s/Index/$name/g" "pages/$name/index.md"
+		rm "pages/$name/index.md-e" 2> /dev/null
+		echo "Made page: $name"
+		echo "Edit it in the pages folder."
+	else
+		echo "Sorry, a page with that name already exists!"
+	fi
 else
-	echo
 	echo "Didn't make a page."
 fi
 
